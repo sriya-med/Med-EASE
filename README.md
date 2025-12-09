@@ -7,7 +7,7 @@ NLP project for simplifying medical diagnoses using the Med-EASi dataset.
 
 1. Clone Repository: 
 
-`git clone ___`<br>
+`git clone https://github.com/sriya-med/Med-EASE.git`<br>
 `cd Med-EASE`
 
 1. Create venv and activate:
@@ -15,13 +15,12 @@ NLP project for simplifying medical diagnoses using the Med-EASi dataset.
 `python -m venv venv`
 `source venv/bin/activate`
 
-4. Upgrade Pip and install packages from requirements.txt
+4. Upgrade Pip and install packages from requirements.txt (only necessary if you run code locally)
 
 `pip install -r requirements.txt`
 
-5. When you install new package, remember to update requirements.txt and commit it.
-
-`pip freeze > requirements.txt`
+## Running the code:
+- Our code is written as jupyter notebooks. All files require significant compute power. In order to run these files, we used Google Colab with the free Student Pro account. IMPORTANT: Download the VS Code Google Colab Extension, connect to T4 GPU and run the notebook cells. 
 
 
 
